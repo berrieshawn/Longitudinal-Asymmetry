@@ -1,4 +1,4 @@
-# Longitudinal Asymmetry
+# Introduction to Longitudinal Asymmetry
 
 In heavy-ion collisions whenever two nuclei collide, we expect an equal number of nucleons to participate from either nuclei, but it can be unequal due to nuclear density fluctuations. This gives rise to an asymmetry known as <b>longitudinal asymmetry</b>. The information of the event asymmetry allows us to isolate and study the effect of longitudinal asymmetry on various $\eta, \phi, pT$ distributions of final state particles. Here, we have looked at how fluctuations of this quantity affected various observables.
 
@@ -12,32 +12,32 @@ fluctuations in the positions of the nucleons around the
 mean nuclear density profile; and event-by-event the kinematic centre of mass has a finite momentum. This finite momentum causes a <b>longitudinal asymmetry</b> in the collision; which also corresponds to a shift in rapidity, denoted as $y_0$.
 
 When the number of nucleons participating from the two of the nuclei are $A$ and $B$, longitudinal asymmetry can be denoted as,
-$
-    \alpha_{part}=\frac{A-B}{A+B}
-$
+```math 
+\alpha_{part} = \frac{A-B}{A+B} 
+```
 Here $\alpha_{part}$ denotes the asymmetry of the participant nuclei.
-\subsection{Shift of rapidity}
+### Shift of rapidity
 Like we discussed before, the net finite momentum corresponds to a shift of rapidity in the participant zone, approximated as,
-\begin{equation}
+```math
     y_0 \approx \frac{1}{2}ln\frac{A}{B}
-\end{equation}
+```
 
-\pagebreak
 w.r.t how we defined $\alpha_{part}$ in \ref{longasymm}, we can rewrite $y_0$ in terms of $\alpha_{part}$ as,
-\begin{equation}
+```math
     y_0=\frac{1}{2}ln\frac{1+\alpha_{part}}{1-\alpha_{part}}
-\end{equation}
+```
 The unequal number of nucleons in the participant zone implies an unequal number of spectators of the two colliding nuclei, $N-A$ and $N-B$ , respectively, where N is the total number of nucleons in each nucleus. The spectator asymmetry,
-\begin{equation}
+```math
     \alpha_{spec}=\frac{(N-A)-(N-B)}{(N-A)+(N-B)}
-\end{equation}
+```
 is related to the participant asymmetry by
-\begin{equation}
+```math
     \alpha_{spec}=-\alpha_{part}\frac{A+B}{2N-(A+B)}
-\end{equation}
+```
 and $y_0$ is related to the spectator asymmetry by,
-\begin{equation}
+```math
     y_0=\frac{1}{2}ln\frac{(A+B)(1+\alpha_{spec})-2N\alpha_{spec}}{(A+B)(1+\alpha_{spec})+2N\alpha_{spec}}
-\end{equation}
+```
 In our present work, we have generated 10,000 events of $0-20\%$ and $80-100\%$ centralities of Pb-Pb collisions at $\sqrt{s_{NN}}=2.76$ TeV using PYTHIA.
+
 
